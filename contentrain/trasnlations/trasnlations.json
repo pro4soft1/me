@@ -1,11 +1,11 @@
 [
   {
     "ID": "7c5368615609",
-    "createdAt": "Sun Mar 31 2024 14:28:13 GMT+0300 (Arabian Standard Time)",
-    "updatedAt": "2024-03-31T11:29:00.784Z",
-    "key": "thi is test",
-    "value": "this is test ",
+    "createdAt": "2024-03-31T11:28:13.000Z",
+    "updatedAt": "2024-03-31T11:29:52.226Z",
     "status": "publish",
+    "key": "thi is test2",
+    "value": "this is test ",
     "scheduled": false
   }
 ]
