@@ -67,5 +67,18 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "value",
+    "fieldId": "value",
+    "modelId": "translations",
+    "componentId": "single-line-text",
+    "options": {
+      "title-field": {
+        "value": true
+      }
+    },
+    "validations": {},
+    "fieldType": "string"
   }
 ]
