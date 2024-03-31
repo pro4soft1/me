@@ -6,7 +6,7 @@
 
       <!-- Text Logo -->
       <div class="text-logo">
-        <nuxt-link to="/">
+        <nuxt-link :to="localePath('/')">
 
           <div class="logo-symbol">S</div>
           <div class="logo-text">Sayed <span>Mohamed</span></div>
@@ -18,25 +18,25 @@
       <div class="site-nav mobile-menu-hide">
         <ul class="leven-classic-menu site-main-menu">
           <li class="menu-item  current-menu-item">
-            <nuxt-link to="/">About Me</nuxt-link>
+            <nuxt-link :to="localePath('/')">{{$t('about_me')}}</nuxt-link>
           </li>
 
           <li class="menu-item">
-            <nuxt-link to="/resume">Resume</nuxt-link>
+            <nuxt-link :to="localePath('/resume')">{{$t('resume')}}</nuxt-link>
           </li>
 
           <li class="menu-item ">
-            <nuxt-link to="/portfolio">Portfolio</nuxt-link>
+            <nuxt-link :to="localePath('/portfolio')">{{$t('portfolio')}}</nuxt-link>
 
           </li>
 
           <li class="menu-item ">
-            <nuxt-link to="/blog">Blog</nuxt-link>
+            <nuxt-link :to="localePath('/blog')">{{$t('blog')}}</nuxt-link>
 
           </li>
 
           <li class="menu-item">
-            <nuxt-link to="/contact">Contact</nuxt-link>
+            <nuxt-link :to="localePath('/contact')">{{$t('contact')}}</nuxt-link>
           </li>
         </ul>
       </div>

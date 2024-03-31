@@ -16,5 +16,38 @@ export default defineNuxtConfig({
         bodyAttrs: {
             class: 'page'
         }
+    },
+    modules: [
+        '@nuxt/content',
+        '@nuxtjs/i18n'
+    ],
+    i18n: {
+        locales: [
+            {
+                code: 'en',
+                iso: 'en-US',
+                file: 'en-US.ts',
+                dir:'rtl'
+            },
+            {
+                code: 'ar',
+                iso: 'ar-EG',
+                file:'ar-EG.ts'
+            }
+        ],
+        lazy: true,
+        langDir: 'lang',
+        defaultLocale: 'en',
+        strategy:'prefix',
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: 'i18n_redirected',
+            redirectOn: 'root',  // recommended
+        }
+    },
+    content: {
+        locales: [
+            'en', 'ar'
+        ]
     }
 })
