@@ -1,10 +1,1 @@
-[
-  {
-    "name": "translations",
-    "modelId": "translations",
-    "localization": false,
-    "type": "JSON",
-    "createdBy": "user",
-    "isServerless": false
-  }
-]
+[]
