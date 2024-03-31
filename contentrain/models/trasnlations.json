@@ -58,5 +58,14 @@
     "system": true,
     "defaultField": false,
     "modelId": "trasnlations"
+  },
+  {
+    "name": "key",
+    "fieldId": "key",
+    "modelId": "trasnlations",
+    "componentId": "slug",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
