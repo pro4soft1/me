@@ -7,5 +7,14 @@
     "key": "thi is test22",
     "value": "this is test ",
     "scheduled": false
+  },
+  {
+    "ID": "83971a0cc88d",
+    "createdAt": "Tue Jun 18 2024 19:20:31 GMT+0300 (Eastern European Summer Time)",
+    "updatedAt": "Tue Jun 18 2024 19:20:31 GMT+0300 (Eastern European Summer Time)",
+    "key": "test_2",
+    "value": "Test 2",
+    "status": "publish",
+    "scheduled": false
   }
 ]
