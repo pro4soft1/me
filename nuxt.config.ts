@@ -2,9 +2,11 @@
 // @ts-ignore
 // @ts-ignore
 // @ts-ignore
+// @ts-ignore
+// @ts-ignore
 export default defineNuxtConfig({
     devtools: {enabled: true},
-    imports: {autoImport: true},
+    // imports: {autoImport: true},
     css: [
         '~/assets/css/normalize.css',
         '~/assets/css/bootstrap.min.css',
@@ -19,26 +21,34 @@ export default defineNuxtConfig({
     },
     modules: [
         '@nuxt/content',
-        '@nuxtjs/i18n'
+        '@nuxtjs/i18n',
+        '@nuxtjs/apollo'
     ],
+    apollo: {
+        clients: {
+            default: {
+                httpEndpoint: 'https://wp-me.test/graphql'
+            }
+        },
+    },
     i18n: {
         locales: [
             {
                 code: 'en',
                 iso: 'en-US',
                 file: 'en-US.ts',
-                dir:'rtl'
+                dir: 'rtl'
             },
             {
                 code: 'ar',
                 iso: 'ar-EG',
-                file:'ar-EG.ts'
+                file: 'ar-EG.ts'
             }
         ],
         lazy: true,
         langDir: 'lang',
         defaultLocale: 'en',
-        strategy:'prefix',
+        strategy: 'prefix',
         detectBrowserLanguage: {
             useCookie: true,
             cookieKey: 'i18n_redirected',

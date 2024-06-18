@@ -1,4 +1,5 @@
 <template>
+  <BlogPostsList/>
   <div id="main" class="site-main">
     <div id="main-content" class="single-page-content">
       <div id="primary" class="content-area">
