@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul>
+    <ul v-if="posts.length">
       <li v-for="post in posts" :key="post.id">
         <nuxt-link to="{ name: 'blog-slug', params: { slug: post.slug } }">
           <h3>{{ post.title }}</h3>
@@ -10,43 +10,13 @@
   </div>
 </template>
 
-<script>
-import gql from 'graphql-tag'
-
-export default {
-  data() {
-    return {
-      posts: []
-    }
-  },
-  async asyncData({app}) {
-    const {data} = await app.apolloProvider.defaultClient.query({
-      query: gql`
-      query getPosts {
-    posts {
-        nodes {
-            id
-            slug
-            status
-            content
-            featuredImage {
-                cursor
-            }
-            excerpt
-            link
-            title
-            uri
-        }
-    }
+<script setup lang="ts">
+const {data, error, pending, refresh} = await useAsyncGql({
+  operation: 'getPosts',
+  variables: {limit: 15},
+});
+if (error.value) {
+  console.error(error.value);
 }
-
-      `
-      // variables: { limit: 5 }
-    })
-
-    return {
-      posts: data.posts.nodes
-    }
-  }
-}
+const posts = data.value.posts.nodes ?? [];
 </script>

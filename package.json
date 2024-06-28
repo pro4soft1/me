@@ -1,20 +1,22 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt build && pm2 delete 0 && pm2 start ecosystem.config.cjs --env production"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxtjs/apollo": "^5.0.0-alpha.14",
+    "@nuxt/image": "^1.7.0",
     "@nuxtjs/i18n": "^8.0.0",
     "nuxt": "^3.12.2",
     "nuxt-graphql-client": "^0.2.34",
+    "nuxt-graphql-request": "^8.0.3",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   },
@@ -23,6 +25,7 @@
     "@nuxt/content": "^2.10.0",
     "bootstrap": "^5.3.2",
     "graphql": "^16.8.2",
-    "graphql-tag": "^2.12.6"
+    "graphql-tag": "^2.12.6",
+    "nuxt-swiper": "^1.2.2"
   }
 }

@@ -1,0 +1,47 @@
+
+query getPosts($limit: Int!) {
+    posts(first: $limit) {
+        nodes {
+            id
+            slug
+            title
+            excerpt
+        }
+    }
+}
+
+ query getPage($name: String) {
+  pages(where: {name: $name}) {
+     nodes {
+          id
+          title
+          pageBuilder {
+            builder {
+              fieldGroupName
+              ... on PageBuilderBuilderAboutProfileLayout {
+                description
+                name
+                position
+                profileImage {
+                  node {
+                    sourceUrl(size: LARGE)
+                  }
+                }
+                cvUrl {
+                  node {
+                    mediaItemUrl
+                  }
+                }
+              }
+              ... on PageBuilderBuilderWhatIDoLayout {
+                whatIDo {
+                  description
+                  icon
+                  title
+                }
+              }
+            }
+          }
+        }
+  }
+}

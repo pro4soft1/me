@@ -2,6 +2,7 @@
   <div id="main" class="site-main">
     <div id="main-content" class="single-page-content">
       <div id="primary" class="content-area">
+        <Pagebuilder page_name="about"/>
 
         <div class="page-title">
           <h1>Resume</h1>
@@ -88,7 +89,7 @@
               <a href="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/11/1.jpg" class="lightbox">
                 <div class="certificate-item clearfix">
                   <div class="certi-logo">
-                    <img src="./img/clients/client-7.png" alt="logo">
+                    <img src="~/assets/img/clients/client-7.png" alt="logo">
                   </div>
 
                   <div class="certi-content">

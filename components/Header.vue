@@ -38,6 +38,12 @@
           <li class="menu-item">
             <nuxt-link :to="localePath('/contact')">{{$t('contact')}}</nuxt-link>
           </li>
+
+                <li class="menu-item langswitcher">
+
+                  <lang-switcher/>
+          </li>
+
         </ul>
       </div>
 

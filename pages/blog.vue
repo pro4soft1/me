@@ -24,7 +24,7 @@
                         <a href="#" title="View all posts in WordPress">WordPress</a>
                       </div>
                       <a href="blog-post-1.html">
-                        <img src="./img/blog/blog_post_1.jpg" alt="How to Make a WordPress Plugin Extensible" title="" />
+                        <img src="~/assets/img/blog/blog_post_1.jpg" alt="How to Make a WordPress Plugin Extensible" title="" />
                         <div class="mask"></div>
                       </a>
                     </div>
@@ -47,7 +47,7 @@
                       </div>
 
                       <a href="blog-post-1.html">
-                        <img src="./img/blog/blog_post_2.jpg" alt="6 Easy Steps to Better Icon Design" title="" />
+                        <img src="~/assets/img/blog/blog_post_2.jpg" alt="6 Easy Steps to Better Icon Design" title="" />
                         <div class="mask"></div>
                       </a>
                     </div>
@@ -69,7 +69,7 @@
                         <a href="#" title="View all posts in UI">UI</a>
                       </div>
                       <a href="blog-post-1.html">
-                        <img src="./img/blog/blog_post_3.jpg" alt="Creative and Innovative Navigation Designs" title="" />
+                        <img src="~/assets/img/blog/blog_post_3.jpg" alt="Creative and Innovative Navigation Designs" title="" />
                         <div class="mask"></div>
                       </a>
                     </div>
@@ -91,7 +91,7 @@
                         <a href="#" title="View all posts in Design">Design</a>
                       </div>
                       <a href="blog-post-1.html">
-                        <img src="./img/blog/blog_post_4.jpg" alt="Why I Switched to Sketch For UI Design" title="" />
+                        <img src="~/assets/img/blog/blog_post_4.jpg" alt="Why I Switched to Sketch For UI Design" title="" />
                         <div class="mask"></div>
                       </a>
                     </div>
@@ -113,7 +113,7 @@
                         <a href="#" title="View all posts in E-Commerce">E-Commerce</a>
                       </div>
                       <a href="blog-post-1.html">
-                        <img src="./img/blog/blog_post_5.jpg" alt="An Overview of E-Commerce Platforms" title="" />
+                        <img src="~/assets/img/blog/blog_post_5.jpg" alt="An Overview of E-Commerce Platforms" title="" />
                         <div class="mask"></div>
                       </a>
                     </div>
@@ -135,7 +135,7 @@
                         <a href="#" title="View all posts in E-Commerce">E-Commerce</a>
                       </div>
                       <a href="blog-post-1.html">
-                        <img src="./img/blog/blog_post_6.jpg" alt="Designing the Perfect Feature Comparison Table" title="" />
+                        <img src="~/assets/img/blog/blog_post_6.jpg" alt="Designing the Perfect Feature Comparison Table" title="" />
                         <div class="mask"></div>
                       </a>
                     </div>

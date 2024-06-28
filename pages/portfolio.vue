@@ -58,7 +58,7 @@
                   <!-- Portfolio Item 1 -->
                   <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/1.jpg" alt="Full Project 2" title="" />
+                      <img src="~/assets/img/portfolio/1.jpg" alt="Full Project 2" title="" />
                       <a href="portfolio-project-2.html" class="ajax-page-load"></a>
                     </div>
 
@@ -71,7 +71,7 @@
                   <!-- Portfolio Item 2 -->
                   <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/2.jpg" alt="YouTube Video 2" title="" />
+                      <img src="~/assets/img/portfolio/2.jpg" alt="YouTube Video 2" title="" />
                       <a href="https://www.youtube.com/embed/F-1weFCiYBA" class="lightbox mfp-iframe" title="YouTube Video 2"></a>
                     </div>
 
@@ -84,8 +84,8 @@
                   <!-- Portfolio Item 3 -->
                   <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/3.jpg" alt="Image 2" title="" />
-                      <a class="lightbox" title="Image 2" href="./img/portfolio/full/3.jpg"></a>
+                      <img src="~/assets/img/portfolio/3.jpg" alt="Image 2" title="" />
+                      <a class="lightbox" title="Image 2" href="~/assets/img/portfolio/full/3.jpg"></a>
                     </div>
 
                     <i class="fa fa-image"></i>
@@ -97,7 +97,7 @@
                   <!-- Portfolio Item 4 -->
                   <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/4.jpg" alt="SoundCloud Audio 1" title="" />
+                      <img src="~/assets/img/portfolio/4.jpg" alt="SoundCloud Audio 1" title="" />
                       <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio 1"></a>
                     </div>
 
@@ -110,7 +110,7 @@
                   <!-- Portfolio Item 5 -->
                   <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_vimeo-video"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/5.jpg" alt="Vimeo Video" title="" />
+                      <img src="~/assets/img/portfolio/5.jpg" alt="Vimeo Video" title="" />
                       <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video"></a>
                     </div>
 
@@ -123,7 +123,7 @@
                   <!-- Portfolio Item 6 -->
                   <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
+                      <img src="~/assets/img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
                       <a href="https://www.youtube.com/embed/ZK8REu-8pGw" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
                     </div>
 
@@ -136,7 +136,7 @@
                   <!-- Portfolio Item 7 -->
                   <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/7.jpg" alt="Full Project 1" title="" />
+                      <img src="~/assets/img/portfolio/7.jpg" alt="Full Project 1" title="" />
                       <a href="portfolio-project-1.html" class="ajax-page-load"></a>
                     </div>
 
@@ -149,7 +149,7 @@
                   <!-- Portfolio Item 8 -->
                   <figure class="item direct" data-groups='["category_all", "category_direct-url"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/8.jpg" alt="Direct URL" title="" />
+                      <img src="~/assets/img/portfolio/8.jpg" alt="Direct URL" title="" />
                       <a target="_blank" href="https://themeforest.net/user/lmpixels/portfolio"></a>
                     </div>
 
@@ -162,8 +162,8 @@
                   <!-- Portfolio Item 9 -->
                   <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
                     <div class="portfolio-item-img">
-                      <img src="./img/portfolio/9.jpg" alt="Image 1" title="" />
-                      <a class="lightbox" title="Image 1" href="./img/portfolio/full/5.jpg"></a>
+                      <img src="~/assets/img/portfolio/9.jpg" alt="Image 1" title="" />
+                      <a class="lightbox" title="Image 1" href="~/assets/img/portfolio/full/5.jpg"></a>
                     </div>
 
                     <i class="fa fa-image"></i>

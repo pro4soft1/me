@@ -1,0 +1,25 @@
+/*.rtldir{*/
+/*    direction: rtl!important;*/
+/*}*/
+[dir="rtl"] li.menu-item.langswitcher {
+    margin-right: 40px;
+}
+
+[dir="rtl"] .site-nav,[dir="rtl"] .footer-copyrights  {
+    float: left;
+}
+
+[dir="rtl"] .text-logo,[dir="rtl"] .footer-social{
+    float: right;
+}
+
+body [dir="rtl"] , [dir="rtl"] .info-block-w-icon,[dir="rtl"] .home-text  {
+    text-align: right;
+}
+[dir="rtl"] .info-block-w-icon .ci-icon{
+    padding: 0 0 5px 15px;
+}
+[dir="rtl"]  .home-text.hp-left {
+    padding-left: 0px;
+    padding-right: 25px;
+}
